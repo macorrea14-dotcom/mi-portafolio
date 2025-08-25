@@ -2,11 +2,12 @@ body{
     font-family: Arial, sans-serif;
     align-content: center;
 }
-h1, h3{
+h1, h2, p{
     text-align: center;
-    background-color: red;
-    width: 50%;
+    backdrop-filter: blur(10px) saturate(200%); 
 }
 .banner{
-    background-image: url(../imag/banner.webp);
+
+    background-image: url(../mi-portafolio/img/banner.jpeg);
+    background-size: cover;
 }
